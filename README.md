@@ -1,11 +1,11 @@
-# 🏀 DSA 210 Project Proposal  
+# DSA 210 Project Proposal  
 ## Predicting NBA Playoff Series Outcomes Based on Bench Scoring and Advanced Contributions  
 
 **Time Frame:** 2000–2025  
 
 ---
 
-### 📌 Motivation  
+### Motivation  
 
 Basketball has always been one of my biggest passions, especially the NBA. During the playoffs, the dynamics of the game shift dramatically — starters log more minutes, rotations shorten, and defensive intensity skyrockets.  
 
@@ -15,7 +15,7 @@ This project aims to **quantify the impact of bench contributions** in the NBA p
 
 ---
 
-### 📊 Data Sources  
+### Data Sources  
 
 Data will be collected from publicly available basketball statistics databases.  
 
@@ -37,7 +37,7 @@ Data will be collected from publicly available basketball statistics databases.
 
 ---
 
-### 🔍 Data Analysis Plan  
+### Data Analysis Plan  
 
 #### A. Exploratory Data Analysis (EDA) & Hypothesis Testing  
 
@@ -50,7 +50,7 @@ Data will be collected from publicly available basketball statistics databases.
 
 ---
 
-### 📈 Expected Findings  
+### Expected Findings  
 
 I expect that teams with a **positive Bench Player Net Rating (BPNR)** will have a **significantly higher probability of winning** playoff series.  
 
@@ -58,7 +58,7 @@ In other words, deeper benches should translate to more consistent postseason su
 
 ---
 
-### ⚠️ Limitations & Future Work  
+### Limitations & Future Work  
 
 **Limitations:**  
 - Advanced stats may be incomplete for earlier seasons (especially before 2010).  
