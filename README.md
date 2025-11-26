@@ -1,7 +1,7 @@
 # DSA 210 Project Proposal  
 ## Predicting NBA Playoff Series Outcomes Based on Bench Scoring and Advanced Contributions  
 
-**Time Frame:** 2000–2025  
+**Time Frame:** 2010–2025  
 
 ---
 
@@ -26,9 +26,8 @@ Data will be collected from publicly available basketball statistics databases.
 **Metric:**  
 - **Bench Scoring Differential:** Net point margin contributed by bench players per game or series.  
 
-#### **Additional Sources (for advanced metrics):**  
-- [NBA Stats](https://www.nba.com/stats)  
-- [BPM Career Leaders](https://www.basketball-reference.com/leaders/bpm_career.html)  
+#### **Additional Sources (for advanced metrics):**   
+- [BPM Career Leaders](https://www.basketball-reference.com/leaders/bpm_career.html)
 - [VORP Career Leaders](https://www.basketball-reference.com/leaders/vorp_career.html)  
 
 **Metrics to be developed:**  
@@ -42,30 +41,66 @@ Data will be collected from publicly available basketball statistics databases.
 #### A. Exploratory Data Analysis (EDA) & Hypothesis Testing  
 
 1. **Bench Trend Analysis:**  
-   - Visualize average bench scoring differentials across all playoff teams (2000–2025).  
+     
 2. **Series Outcome Comparison:**  
-   - Compare BPNR and Bench Scoring Differential between winning and losing teams.  
-3. **Hypothesis Testing:**  
-   - **Null Hypothesis (H₀):** There is no significant difference in mean BPNR between series-winning and series-losing teams.  
+    
+3. **Hypothesis Testing:**    
 
 ---
 
-### Expected Findings  
+## Analysis Results 
 
-I expect that teams with a **positive Bench Player Net Rating (BPNR)** will have a **significantly higher probability of winning** playoff series.  
+### Phase 1: Predictive Analysis (Regular Season Depth)
+We first tested if a deep bench in the regular season predicts success in the playoffs.
+* **Hypothesis 1:** Teams with higher *Regular Season* bench scoring win more playoff series.
+* **Metric:** Regular Season Bench Total Points vs. Playoff Series Outcome.
+* **Result:**
+    * **P-Value:** 0.784 (Insignificant)
+    * **Conclusion:** We **failed to reject the null hypothesis**. A deep bench in the regular season is NOT a strong predictor of playoff series wins.
 
-In other words, deeper benches should translate to more consistent postseason success.  
+### Phase 2: Descriptive Analysis (Playoff Volume)
+We then narrowed our scope to analyze player performance *during* the playoffs to see if bench scoring volume decided specific matchups.
+* **Hypothesis 2:** The bench scoring differential (Winner - Loser) in a playoff series is significantly different from zero.
+* **Metric:** (Winner Bench PPG - Loser Bench PPG) in specific playoff series.
+* **Result:**
+    * **P-Value:** $3.11 \times 10^{-39}$ (Highly Significant)
+    * **Mean Differential:** -2.33 PPG
+    * **Conclusion:** We **rejected the null hypothesis**, but with a surprising finding. The differential is **negative**, meaning series winners typically receive **fewer** points from their bench than the losers.
+
+### Phase 3: Qualitative Analysis (Bench Efficiency)
+We then analyzed the *quality* of minutes played by the bench, rather than just the raw points scored.
+* **Hypothesis 3:** The bench efficiency differential (Winner - Loser) in a playoff series is significantly different from zero.
+* **Metric:** Weighted Average Box Plus/Minus (BPM) Differential.
+* **Result:**
+    * **P-Value:** $4.48 \times 10^{-4}$ (Significant)
+    * **Mean Differential:** +0.52 BPM
+    * **Conclusion:** We **rejected the null hypothesis** with a **positive** correlation. Series winners typically have benches with higher efficiency ratings (BPM) than losers.
+
+### Phase 4: Value Analysis (Bench VORP)
+Finally, we assessed the overall value provided by bench players compared to a replacement-level player, combining both production and efficiency.
+* **Hypothesis 4:** The average bench VORP differential (Winner - Loser) in a playoff series is significantly different from zero.
+* **Metric:** Average Value Over Replacement Player (VORP) Differential.
+* **Result:**
+    * **P-Value:** $2.84 \times 10^{-12}$ (Highly Significant)
+    * **Mean Differential:** +0.039 VORP
+    * **Conclusion:** We **rejected the null hypothesis** with a strong **positive** correlation.
+    * **Mean Winner Bench VORP:** 0.0767
+    * **Mean Loser Bench VORP:** 0.0373
+    * **Insight:** Winning bench players contribute nearly **double the value** over a replacement player compared to losing bench players.
+
+### Key Insight: The "Hold the Line" Theory
+Our multi-stage analysis reveals a nuanced reality about NBA rotations:
+1.  **Star Power Rules:** In the playoffs, rotations shorten. Teams that rely on high-volume bench scoring often lose (Phase 2), likely because their starters are underperforming.
+2.  **Quality Over Quantity:** While winning benches score *less*, they are *more efficient* and provide *more value*.
+    * They play "winning basketball" (Positive VORP/BPM) without needing to dominate the ball.
+3.  **Final Verdict:** The ideal playoff bench does not need to score 50 points; it simply needs to be efficient enough to "hold the line" and maintain the margins established by the stars.
 
 ---
 
-### Limitations & Future Work  
+### Limitations
 
 **Limitations:**  
-- Advanced stats may be incomplete for earlier seasons (especially before 2010).  
-- Calculating BPNR requires identifying all-bench lineups, which can be complex.  
-
-**Future Work:**  
-- Extend the model to predict **series length (4, 5, 6, or 7 games)**.  
-- Explore **player fatigue** and **bench usage patterns** as additional predictive features.  
+- Advanced stats may be incomplete for earlier seasons.  
+- Calculating BPNR requires identifying all-bench lineups, which can be complex.
 
 
