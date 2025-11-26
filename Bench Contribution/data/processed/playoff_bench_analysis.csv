@@ -1,0 +1,481 @@
+Year,Team,Round,Series_Result,Bench_Total_PTS,G
+2025.0,CLE,Eastern Conf First Round,Won,88.8,15
+2025.0,IND,Eastern Conf First Round,Won,72.5,16
+2025.0,NYK,Eastern Conf First Round,Won,55.1,16
+2025.0,BOS,Eastern Conf First Round,Won,51.0,12
+2025.0,OKC,Western Conf First Round,Won,63.9,13
+2025.0,DEN,Western Conf First Round,Won,53.6,12
+2025.0,MIN,Western Conf First Round,Won,59.0,15
+2025.0,GSW,Western Conf First Round,Won,93.0,16
+2025.0,IND,Eastern Conf Semifinals,Won,72.5,16
+2025.0,NYK,Eastern Conf Semifinals,Won,55.1,16
+2025.0,OKC,Western Conf Semifinals,Won,63.9,13
+2025.0,MIN,Western Conf Semifinals,Won,59.0,15
+2025.0,IND,Eastern Conf Finals,Won,72.5,16
+2025.0,OKC,Western Conf Finals,Won,63.9,13
+2025.0,OKC,Finals,Won,63.9,13
+2024.0,BOS,Eastern Conf First Round,Won,55.7,13
+2024.0,CLE,Eastern Conf First Round,Won,56.2,11
+2024.0,IND,Eastern Conf First Round,Won,79.1,15
+2024.0,NYK,Eastern Conf First Round,Won,70.1,18
+2024.0,OKC,Western Conf First Round,Won,62.6,17
+2024.0,DAL,Western Conf First Round,Won,70.3,14
+2024.0,MIN,Western Conf First Round,Won,58.9,14
+2024.0,DEN,Western Conf First Round,Won,48.4,12
+2024.0,IND,Eastern Conf Semifinals,Won,79.1,15
+2024.0,DAL,Western Conf Semifinals,Won,70.3,14
+2024.0,MIN,Western Conf Semifinals,Won,58.9,14
+2024.0,BOS,Eastern Conf Semifinals,Won,55.7,13
+2024.0,BOS,Eastern Conf Finals,Won,55.7,13
+2024.0,DAL,Western Conf Finals,Won,70.3,14
+2024.0,BOS,Finals,Won,55.7,13
+2023.0,MIA,Eastern Conf First Round,Won,68.6,12
+2023.0,NYK,Eastern Conf First Round,Won,67.4,12
+2023.0,PHI,Eastern Conf First Round,Won,86.0,15
+2023.0,BOS,Eastern Conf First Round,Won,56.4,12
+2023.0,DEN,Western Conf First Round,Won,73.2,13
+2023.0,PHO,Western Conf First Round,Won,86.8,13
+2023.0,GSW,Western Conf First Round,Won,57.7,11
+2023.0,LAL,Western Conf First Round,Won,71.2,14
+2023.0,MIA,Eastern Conf Semifinals,Won,68.6,12
+2023.0,BOS,Eastern Conf Semifinals,Won,56.4,12
+2023.0,DEN,Western Conf Semifinals,Won,73.2,13
+2023.0,LAL,Western Conf Semifinals,Won,71.2,14
+2023.0,DEN,Western Conf Finals,Won,73.2,13
+2023.0,MIA,Eastern Conf Finals,Won,68.6,12
+2023.0,DEN,Finals,Won,73.2,13
+2022.0,MIL,Eastern Conf First Round,Won,97.2,23
+2022.0,MEM,Western Conf First Round,Won,67.0,17
+2022.0,BOS,Eastern Conf First Round,Won,77.9,22
+2022.0,GSW,Western Conf First Round,Won,56.8,11
+2022.0,DAL,Western Conf First Round,Won,93.5,21
+2022.0,PHI,Eastern Conf First Round,Won,63.699999999999996,17
+2022.0,PHO,Western Conf First Round,Won,93.9,18
+2022.0,MIA,Eastern Conf First Round,Won,107.7,16
+2022.0,BOS,Eastern Conf Semifinals,Won,77.9,22
+2022.0,MIA,Eastern Conf Semifinals,Won,107.7,16
+2022.0,DAL,Western Conf Semifinals,Won,93.5,21
+2022.0,GSW,Western Conf Semifinals,Won,56.8,11
+2022.0,GSW,Western Conf Finals,Won,56.8,11
+2022.0,BOS,Eastern Conf Finals,Won,77.9,22
+2022.0,GSW,Finals,Won,56.8,11
+2021.0,MIL,Eastern Conf First Round,Won,94.4,17
+2021.0,LAC,Western Conf First Round,Won,77.6,13
+2021.0,BRK,Eastern Conf First Round,Won,100.7,18
+2021.0,DEN,Western Conf First Round,Won,66.0,15
+2021.0,PHI,Eastern Conf First Round,Won,77.4,18
+2021.0,UTA,Western Conf First Round,Won,62.3,13
+2021.0,ATL,Eastern Conf First Round,Won,56.9,11
+2021.0,PHO,Western Conf First Round,Won,65.2,12
+2021.0,MIL,Eastern Conf Semifinals,Won,94.4,17
+2021.0,ATL,Eastern Conf Semifinals,Won,56.9,11
+2021.0,PHO,Western Conf Semifinals,Won,65.2,12
+2021.0,LAC,Western Conf Semifinals,Won,77.6,13
+2021.0,PHO,Western Conf Finals,Won,65.2,12
+2021.0,MIL,Eastern Conf Finals,Won,94.4,17
+2021.0,MIL,Finals,Won,94.4,17
+2020.0,MIL,Eastern Conf First Round,Won,68.8,12
+2020.0,TOR,Eastern Conf First Round,Won,60.1,12
+2020.0,BOS,Eastern Conf First Round,Won,45.0,11
+2020.0,MIA,Eastern Conf First Round,Won,105.3,16
+2020.0,LAL,Western Conf First Round,Won,86.1,15
+2020.0,LAC,Western Conf First Round,Won,80.5,13
+2020.0,DEN,Western Conf First Round,Won,83.5,16
+2020.0,HOU,Western Conf First Round,Won,78.3,15
+2020.0,BOS,Eastern Conf Semifinals,Won,45.0,11
+2020.0,MIA,Eastern Conf Semifinals,Won,105.3,16
+2020.0,DEN,Western Conf Semifinals,Won,83.5,16
+2020.0,LAL,Western Conf Semifinals,Won,86.1,15
+2020.0,MIA,Eastern Conf Finals,Won,105.3,16
+2020.0,LAL,Western Conf Finals,Won,86.1,15
+2020.0,LAL,Finals,Won,86.1,15
+2019.0,MIL,Eastern Conf First Round,Won,90.4,19
+2019.0,TOR,Eastern Conf First Round,Won,87.2,16
+2019.0,PHI,Eastern Conf First Round,Won,102.9,17
+2019.0,BOS,Eastern Conf First Round,Won,80.0,12
+2019.0,GSW,Western Conf First Round,Won,51.1,11
+2019.0,DEN,Western Conf First Round,Won,66.2,13
+2019.0,POR,Western Conf First Round,Won,77.3,13
+2019.0,HOU,Western Conf First Round,Won,72.7,16
+2019.0,MIL,Eastern Conf Semifinals,Won,90.4,19
+2019.0,TOR,Eastern Conf Semifinals,Won,87.2,16
+2019.0,GSW,Western Conf Semifinals,Won,51.1,11
+2019.0,POR,Western Conf Semifinals,Won,77.3,13
+2019.0,TOR,Eastern Conf Finals,Won,87.2,16
+2019.0,GSW,Western Conf Finals,Won,51.1,11
+2019.0,TOR,Finals,Won,87.2,16
+2018.0,TOR,Eastern Conf First Round,Won,60.1,13
+2018.0,BOS,Eastern Conf First Round,Won,75.6,14
+2018.0,PHI,Eastern Conf First Round,Won,90.4,18
+2018.0,CLE,Eastern Conf First Round,Won,90.9,14
+2018.0,HOU,Western Conf First Round,Won,89.8,19
+2018.0,GSW,Western Conf First Round,Won,50.4,11
+2018.0,NOP,Western Conf First Round,Won,70.4,17
+2018.0,UTA,Western Conf First Round,Won,86.4,16
+2018.0,GSW,Western Conf Semifinals,Won,50.4,11
+2018.0,HOU,Western Conf Semifinals,Won,89.8,19
+2018.0,BOS,Eastern Conf Semifinals,Won,75.6,14
+2018.0,CLE,Eastern Conf Semifinals,Won,90.9,14
+2018.0,CLE,Eastern Conf Finals,Won,90.9,14
+2018.0,GSW,Western Conf Finals,Won,50.4,11
+2018.0,GSW,Finals,Won,50.4,11
+2017.0,BOS,Eastern Conf First Round,Won,50.4,10
+2017.0,CLE,Eastern Conf First Round,Won,83.0,16
+2017.0,TOR,Eastern Conf First Round,Won,61.7,11
+2017.0,WAS,Eastern Conf First Round,Won,55.4,13
+2017.0,GSW,Western Conf First Round,Won,50.1,12
+2017.0,SAS,Western Conf First Round,Won,54.1,11
+2017.0,HOU,Western Conf First Round,Won,71.7,12
+2017.0,UTA,Western Conf First Round,Won,55.0,10
+2017.0,CLE,Eastern Conf Semifinals,Won,83.0,16
+2017.0,BOS,Eastern Conf Semifinals,Won,50.4,10
+2017.0,GSW,Western Conf Semifinals,Won,50.1,12
+2017.0,SAS,Western Conf Semifinals,Won,54.1,11
+2017.0,GSW,Western Conf Finals,Won,50.1,12
+2017.0,CLE,Eastern Conf Finals,Won,83.0,16
+2017.0,GSW,Finals,Won,50.1,12
+2016.0,CLE,Eastern Conf First Round,Won,69.8,13
+2016.0,TOR,Eastern Conf First Round,Won,49.0,10
+2016.0,MIA,Eastern Conf First Round,Won,51.0,12
+2016.0,ATL,Eastern Conf First Round,Won,56.8,12
+2016.0,GSW,Western Conf First Round,Won,51.0,11
+2016.0,SAS,Western Conf First Round,Won,65.5,12
+2016.0,OKC,Western Conf First Round,Won,56.5,12
+2016.0,POR,Western Conf First Round,Won,51.1,11
+2016.0,CLE,Eastern Conf Semifinals,Won,69.8,13
+2016.0,TOR,Eastern Conf Semifinals,Won,49.0,10
+2016.0,GSW,Western Conf Semifinals,Won,51.0,11
+2016.0,OKC,Western Conf Semifinals,Won,56.5,12
+2016.0,CLE,Eastern Conf Finals,Won,69.8,13
+2016.0,GSW,Western Conf Finals,Won,51.0,11
+2016.0,CLE,Finals,Won,69.8,13
+2015.0,ATL,Eastern Conf First Round,Won,57.6,11
+2015.0,CLE,Eastern Conf First Round,Won,54.800000000000004,14
+2015.0,CHI,Eastern Conf First Round,Won,51.3,9
+2015.0,WAS,Eastern Conf First Round,Won,60.6,13
+2015.0,GSW,Western Conf First Round,Won,54.1,10
+2015.0,HOU,Western Conf First Round,Won,66.7,14
+2015.0,LAC,Western Conf First Round,Won,61.9,15
+2015.0,MEM,Western Conf First Round,Won,54.2,13
+2015.0,CLE,Eastern Conf Semifinals,Won,54.800000000000004,14
+2015.0,ATL,Eastern Conf Semifinals,Won,57.6,11
+2015.0,HOU,Western Conf Semifinals,Won,66.7,14
+2015.0,GSW,Western Conf Semifinals,Won,54.1,10
+2015.0,CLE,Eastern Conf Finals,Won,54.800000000000004,14
+2015.0,GSW,Western Conf Finals,Won,54.1,10
+2015.0,GSW,Finals,Won,54.1,10
+2014.0,IND,Eastern Conf First Round,Won,60.3,12
+2014.0,MIA,Eastern Conf First Round,Won,55.8,12
+2014.0,BRK,Eastern Conf First Round,Won,72.5,13
+2014.0,WAS,Eastern Conf First Round,Won,48.4,11
+2014.0,SAS,Western Conf First Round,Won,73.2,14
+2014.0,OKC,Western Conf First Round,Won,55.8,13
+2014.0,LAC,Western Conf First Round,Won,67.60000000000001,14
+2014.0,POR,Western Conf First Round,Won,39.5,10
+2014.0,IND,Eastern Conf Semifinals,Won,60.3,12
+2014.0,MIA,Eastern Conf Semifinals,Won,55.8,12
+2014.0,SAS,Western Conf Semifinals,Won,73.2,14
+2014.0,OKC,Western Conf Semifinals,Won,55.8,13
+2014.0,MIA,Eastern Conf Finals,Won,55.8,12
+2014.0,SAS,Western Conf Finals,Won,73.2,14
+2014.0,SAS,Finals,Won,73.2,14
+2013.0,MIA,Eastern Conf First Round,Won,48.9,13
+2013.0,NYK,Eastern Conf First Round,Won,69.6,10
+2013.0,IND,Eastern Conf First Round,Won,42.7,10
+2013.0,CHI,Eastern Conf First Round,Won,49.5,10
+2013.0,OKC,Western Conf First Round,Won,44.0,11
+2013.0,SAS,Western Conf First Round,Won,62.4,11
+2013.0,GSW,Western Conf First Round,Won,42.6,10
+2013.0,MEM,Western Conf First Round,Won,58.3,14
+2013.0,MIA,Eastern Conf Semifinals,Won,48.9,13
+2013.0,IND,Eastern Conf Semifinals,Won,42.7,10
+2013.0,MEM,Western Conf Semifinals,Won,58.3,14
+2013.0,SAS,Western Conf Semifinals,Won,62.4,11
+2013.0,MIA,Eastern Conf Finals,Won,48.9,13
+2013.0,SAS,Western Conf Finals,Won,62.4,11
+2013.0,MIA,Finals,Won,48.9,13
+2012.0,PHI,Eastern Conf First Round,Won,60.2,11
+2012.0,MIA,Eastern Conf First Round,Won,41.3,11
+2012.0,IND,Eastern Conf First Round,Won,49.8,10
+2012.0,BOS,Eastern Conf First Round,Won,45.3,11
+2012.0,SAS,Western Conf First Round,Won,84.0,15
+2012.0,OKC,Western Conf First Round,Won,49.0,11
+2012.0,LAL,Western Conf First Round,Won,41.8,10
+2012.0,LAC,Western Conf First Round,Won,49.099999999999994,12
+2012.0,MIA,Eastern Conf Semifinals,Won,41.3,11
+2012.0,BOS,Eastern Conf Semifinals,Won,45.3,11
+2012.0,SAS,Western Conf Semifinals,Won,84.0,15
+2012.0,OKC,Western Conf Semifinals,Won,49.0,11
+2012.0,OKC,Western Conf Finals,Won,49.0,11
+2012.0,MIA,Eastern Conf Finals,Won,41.3,11
+2012.0,MIA,Finals,Won,41.3,11
+2011.0,CHI,Eastern Conf First Round,Won,37.300000000000004,9
+2011.0,MIA,Eastern Conf First Round,Won,43.9,11
+2011.0,BOS,Eastern Conf First Round,Won,64.7,14
+2011.0,ATL,Eastern Conf First Round,Won,46.2,10
+2011.0,MEM,Western Conf First Round,Won,58.5,14
+2011.0,LAL,Western Conf First Round,Won,49.1,11
+2011.0,DAL,Western Conf First Round,Won,60.0,10
+2011.0,OKC,Western Conf First Round,Won,45.1,11
+2011.0,CHI,Eastern Conf Semifinals,Won,37.300000000000004,9
+2011.0,MIA,Eastern Conf Semifinals,Won,43.9,11
+2011.0,DAL,Western Conf Semifinals,Won,60.0,10
+2011.0,OKC,Western Conf Semifinals,Won,45.1,11
+2011.0,MIA,Eastern Conf Finals,Won,43.9,11
+2011.0,DAL,Western Conf Finals,Won,60.0,10
+2011.0,DAL,Finals,Won,60.0,10
+2010.0,CLE,Eastern Conf First Round,Won,56.9,12
+2010.0,ORL,Eastern Conf First Round,Won,45.6,7
+2010.0,ATL,Eastern Conf First Round,Won,39.5,9
+2010.0,BOS,Eastern Conf First Round,Won,61.6,14
+2010.0,LAL,Western Conf First Round,Won,38.5,8
+2010.0,SAS,Western Conf First Round,Won,59.9,11
+2010.0,PHO,Western Conf First Round,Won,39.2,9
+2010.0,UTA,Western Conf First Round,Won,48.2,9
+2010.0,BOS,Eastern Conf Semifinals,Won,61.6,14
+2010.0,ORL,Eastern Conf Semifinals,Won,45.6,7
+2010.0,LAL,Western Conf Semifinals,Won,38.5,8
+2010.0,PHO,Western Conf Semifinals,Won,39.2,9
+2010.0,LAL,Western Conf Finals,Won,38.5,8
+2010.0,BOS,Eastern Conf Finals,Won,61.6,14
+2010.0,LAL,Finals,Won,38.5,8
+2025.0,MIA,Eastern Conf First Round,Lost,72.8,13
+2025.0,MIL,Eastern Conf First Round,Lost,90.9,17
+2025.0,DET,Eastern Conf First Round,Lost,88.6,15
+2025.0,ORL,Eastern Conf First Round,Lost,57.1,10
+2025.0,MEM,Western Conf First Round,Lost,93.9,16
+2025.0,LAC,Western Conf First Round,Lost,79.3,17
+2025.0,LAL,Western Conf First Round,Lost,73.3,17
+2025.0,HOU,Western Conf First Round,Lost,64.2,12
+2025.0,CLE,Eastern Conf Semifinals,Lost,88.8,15
+2025.0,BOS,Eastern Conf Semifinals,Lost,51.0,12
+2025.0,DEN,Western Conf Semifinals,Lost,53.6,12
+2025.0,GSW,Western Conf Semifinals,Lost,93.0,16
+2025.0,NYK,Eastern Conf Finals,Lost,55.1,16
+2025.0,MIN,Western Conf Finals,Lost,59.0,15
+2025.0,IND,Finals,Lost,72.5,16
+2024.0,MIA,Eastern Conf First Round,Lost,78.7,14
+2024.0,ORL,Eastern Conf First Round,Lost,60.3,12
+2024.0,MIL,Eastern Conf First Round,Lost,53.0,15
+2024.0,PHI,Eastern Conf First Round,Lost,84.1,20
+2024.0,NOP,Western Conf First Round,Lost,68.1,15
+2024.0,LAC,Western Conf First Round,Lost,74.2,15
+2024.0,PHO,Western Conf First Round,Lost,67.7,17
+2024.0,LAL,Western Conf First Round,Lost,40.0,14
+2024.0,NYK,Eastern Conf Semifinals,Lost,70.1,18
+2024.0,OKC,Western Conf Semifinals,Lost,62.6,17
+2024.0,DEN,Western Conf Semifinals,Lost,48.4,12
+2024.0,CLE,Eastern Conf Semifinals,Lost,56.2,11
+2024.0,IND,Eastern Conf Finals,Lost,79.1,15
+2024.0,MIN,Western Conf Finals,Lost,58.9,14
+2024.0,DAL,Finals,Lost,70.3,14
+2023.0,MIL,Eastern Conf First Round,Lost,85.2,15
+2023.0,CLE,Eastern Conf First Round,Lost,69.2,13
+2023.0,BRK,Eastern Conf First Round,Lost,89.2,16
+2023.0,ATL,Eastern Conf First Round,Lost,80.5,15
+2023.0,MIN,Western Conf First Round,Lost,69.6,13
+2023.0,LAC,Western Conf First Round,Lost,97.3,14
+2023.0,SAC,Western Conf First Round,Lost,56.1,15
+2023.0,MEM,Western Conf First Round,Lost,83.3,14
+2023.0,NYK,Eastern Conf Semifinals,Lost,67.4,12
+2023.0,PHI,Eastern Conf Semifinals,Lost,86.0,15
+2023.0,PHO,Western Conf Semifinals,Lost,86.8,13
+2023.0,GSW,Western Conf Semifinals,Lost,57.7,11
+2023.0,LAL,Western Conf Finals,Lost,71.2,14
+2023.0,BOS,Eastern Conf Finals,Lost,56.4,12
+2023.0,MIA,Finals,Lost,68.6,12
+2022.0,CHI,Eastern Conf First Round,Lost,61.3,15
+2022.0,MIN,Western Conf First Round,Lost,67.7,13
+2022.0,BRK,Eastern Conf First Round,Lost,86.4,16
+2022.0,DEN,Western Conf First Round,Lost,77.5,16
+2022.0,UTA,Western Conf First Round,Lost,80.9,18
+2022.0,TOR,Eastern Conf First Round,Lost,74.4,17
+2022.0,NOP,Western Conf First Round,Lost,90.7,16
+2022.0,ATL,Eastern Conf First Round,Lost,100.9,18
+2022.0,MIL,Eastern Conf Semifinals,Lost,97.2,23
+2022.0,PHI,Eastern Conf Semifinals,Lost,63.699999999999996,17
+2022.0,PHO,Western Conf Semifinals,Lost,93.9,18
+2022.0,MEM,Western Conf Semifinals,Lost,67.0,17
+2022.0,DAL,Western Conf Finals,Lost,93.5,21
+2022.0,MIA,Eastern Conf Finals,Lost,107.7,16
+2022.0,BOS,Finals,Lost,77.9,22
+2021.0,MIA,Eastern Conf First Round,Lost,80.0,13
+2021.0,DAL,Western Conf First Round,Lost,74.5,14
+2021.0,BOS,Eastern Conf First Round,Lost,66.2,14
+2021.0,POR,Western Conf First Round,Lost,51.699999999999996,10
+2021.0,WAS,Eastern Conf First Round,Lost,75.7,14
+2021.0,MEM,Western Conf First Round,Lost,83.9,13
+2021.0,NYK,Eastern Conf First Round,Lost,67.6,13
+2021.0,LAL,Western Conf First Round,Lost,69.8,12
+2021.0,BRK,Eastern Conf Semifinals,Lost,100.7,18
+2021.0,PHI,Eastern Conf Semifinals,Lost,77.4,18
+2021.0,DEN,Western Conf Semifinals,Lost,66.0,15
+2021.0,UTA,Western Conf Semifinals,Lost,62.3,13
+2021.0,LAC,Western Conf Finals,Lost,77.6,13
+2021.0,ATL,Eastern Conf Finals,Lost,56.9,11
+2021.0,PHO,Finals,Lost,65.2,12
+2020.0,ORL,Eastern Conf First Round,Lost,60.8,12
+2020.0,BRK,Eastern Conf First Round,Lost,77.1,15
+2020.0,PHI,Eastern Conf First Round,Lost,68.0,13
+2020.0,IND,Eastern Conf First Round,Lost,46.6,10
+2020.0,POR,Western Conf First Round,Lost,52.6,11
+2020.0,DAL,Western Conf First Round,Lost,86.2,14
+2020.0,UTA,Western Conf First Round,Lost,62.7,14
+2020.0,OKC,Western Conf First Round,Lost,60.8,12
+2020.0,TOR,Eastern Conf Semifinals,Lost,60.1,12
+2020.0,MIL,Eastern Conf Semifinals,Lost,68.8,12
+2020.0,LAC,Western Conf Semifinals,Lost,80.5,13
+2020.0,HOU,Western Conf Semifinals,Lost,78.3,15
+2020.0,BOS,Eastern Conf Finals,Lost,45.0,11
+2020.0,DEN,Western Conf Finals,Lost,83.5,16
+2020.0,MIA,Finals,Lost,105.3,16
+2019.0,DET,Eastern Conf First Round,Lost,66.5,14
+2019.0,ORL,Eastern Conf First Round,Lost,60.1,12
+2019.0,BRK,Eastern Conf First Round,Lost,89.6,13
+2019.0,IND,Eastern Conf First Round,Lost,56.4,11
+2019.0,LAC,Western Conf First Round,Lost,88.0,14
+2019.0,SAS,Western Conf First Round,Lost,51.1,11
+2019.0,OKC,Western Conf First Round,Lost,52.1,13
+2019.0,UTA,Western Conf First Round,Lost,70.1,13
+2019.0,BOS,Eastern Conf Semifinals,Lost,80.0,12
+2019.0,PHI,Eastern Conf Semifinals,Lost,102.9,17
+2019.0,HOU,Western Conf Semifinals,Lost,72.7,16
+2019.0,DEN,Western Conf Semifinals,Lost,66.2,13
+2019.0,MIL,Eastern Conf Finals,Lost,90.4,19
+2019.0,POR,Western Conf Finals,Lost,77.3,13
+2019.0,GSW,Finals,Lost,51.1,11
+2018.0,WAS,Eastern Conf First Round,Lost,55.6,10
+2018.0,MIL,Eastern Conf First Round,Lost,88.8,18
+2018.0,MIA,Eastern Conf First Round,Lost,65.1,11
+2018.0,IND,Eastern Conf First Round,Lost,57.9,14
+2018.0,MIN,Western Conf First Round,Lost,47.0,11
+2018.0,SAS,Western Conf First Round,Lost,62.6,11
+2018.0,POR,Western Conf First Round,Lost,41.5,10
+2018.0,OKC,Western Conf First Round,Lost,38.1,11
+2018.0,NOP,Western Conf Semifinals,Lost,70.4,17
+2018.0,UTA,Western Conf Semifinals,Lost,86.4,16
+2018.0,PHI,Eastern Conf Semifinals,Lost,90.4,18
+2018.0,TOR,Eastern Conf Semifinals,Lost,60.1,13
+2018.0,BOS,Eastern Conf Finals,Lost,75.6,14
+2018.0,HOU,Western Conf Finals,Lost,89.8,19
+2018.0,CLE,Finals,Lost,90.9,14
+2017.0,CHI,Eastern Conf First Round,Lost,74.1,13
+2017.0,IND,Eastern Conf First Round,Lost,65.4,12
+2017.0,MIL,Eastern Conf First Round,Lost,56.199999999999996,12
+2017.0,ATL,Eastern Conf First Round,Lost,68.6,14
+2017.0,POR,Western Conf First Round,Lost,48.8,9
+2017.0,MEM,Western Conf First Round,Lost,68.3,11
+2017.0,OKC,Western Conf First Round,Lost,71.8,13
+2017.0,LAC,Western Conf First Round,Lost,56.8,10
+2017.0,TOR,Eastern Conf Semifinals,Lost,61.7,11
+2017.0,WAS,Eastern Conf Semifinals,Lost,55.4,13
+2017.0,UTA,Western Conf Semifinals,Lost,55.0,10
+2017.0,HOU,Western Conf Semifinals,Lost,71.7,12
+2017.0,SAS,Western Conf Finals,Lost,54.1,11
+2017.0,BOS,Eastern Conf Finals,Lost,50.4,10
+2017.0,CLE,Finals,Lost,83.0,16
+2016.0,DET,Eastern Conf First Round,Lost,53.8,11
+2016.0,IND,Eastern Conf First Round,Lost,61.6,11
+2016.0,CHO,Eastern Conf First Round,Lost,61.5,10
+2016.0,BOS,Eastern Conf First Round,Lost,56.0,11
+2016.0,HOU,Western Conf First Round,Lost,74.8,13
+2016.0,MEM,Western Conf First Round,Lost,87.7,17
+2016.0,DAL,Western Conf First Round,Lost,65.7,11
+2016.0,LAC,Western Conf First Round,Lost,65.4,12
+2016.0,ATL,Eastern Conf Semifinals,Lost,56.8,12
+2016.0,MIA,Eastern Conf Semifinals,Lost,51.0,12
+2016.0,POR,Western Conf Semifinals,Lost,51.1,11
+2016.0,SAS,Western Conf Semifinals,Lost,65.5,12
+2016.0,TOR,Eastern Conf Finals,Lost,49.0,10
+2016.0,OKC,Western Conf Finals,Lost,56.5,12
+2016.0,GSW,Finals,Lost,51.0,11
+2015.0,BRK,Eastern Conf First Round,Lost,57.5,12
+2015.0,BOS,Eastern Conf First Round,Lost,87.7,14
+2015.0,MIL,Eastern Conf First Round,Lost,59.4,12
+2015.0,TOR,Eastern Conf First Round,Lost,51.1,10
+2015.0,NOP,Western Conf First Round,Lost,65.5,15
+2015.0,DAL,Western Conf First Round,Lost,69.2,13
+2015.0,SAS,Western Conf First Round,Lost,65.2,12
+2015.0,POR,Western Conf First Round,Lost,54.0,12
+2015.0,CHI,Eastern Conf Semifinals,Lost,51.3,9
+2015.0,WAS,Eastern Conf Semifinals,Lost,60.6,13
+2015.0,LAC,Western Conf Semifinals,Lost,61.9,15
+2015.0,MEM,Western Conf Semifinals,Lost,54.2,13
+2015.0,ATL,Eastern Conf Finals,Lost,57.6,11
+2015.0,HOU,Western Conf Finals,Lost,66.7,14
+2015.0,CLE,Finals,Lost,54.800000000000004,14
+2014.0,ATL,Eastern Conf First Round,Lost,54.6,11
+2014.0,CHA,Eastern Conf First Round,Lost,67.8,14
+2014.0,TOR,Eastern Conf First Round,Lost,50.5,14
+2014.0,CHI,Eastern Conf First Round,Lost,44.6,13
+2014.0,DAL,Western Conf First Round,Lost,50.9,10
+2014.0,MEM,Western Conf First Round,Lost,59.7,12
+2014.0,GSW,Western Conf First Round,Lost,54.5,13
+2014.0,HOU,Western Conf First Round,Lost,73.1,13
+2014.0,WAS,Eastern Conf Semifinals,Lost,48.4,11
+2014.0,BRK,Eastern Conf Semifinals,Lost,72.5,13
+2014.0,POR,Western Conf Semifinals,Lost,39.5,10
+2014.0,LAC,Western Conf Semifinals,Lost,67.60000000000001,14
+2014.0,IND,Eastern Conf Finals,Lost,60.3,12
+2014.0,OKC,Western Conf Finals,Lost,55.8,13
+2014.0,MIA,Finals,Lost,55.8,12
+2013.0,MIL,Eastern Conf First Round,Lost,60.1,11
+2013.0,BOS,Eastern Conf First Round,Lost,63.4,14
+2013.0,ATL,Eastern Conf First Round,Lost,63.4,12
+2013.0,BRK,Eastern Conf First Round,Lost,46.2,12
+2013.0,HOU,Western Conf First Round,Lost,73.8,15
+2013.0,LAL,Western Conf First Round,Lost,42.9,10
+2013.0,DEN,Western Conf First Round,Lost,63.7,10
+2013.0,LAC,Western Conf First Round,Lost,52.1,9
+2013.0,CHI,Eastern Conf Semifinals,Lost,49.5,10
+2013.0,NYK,Eastern Conf Semifinals,Lost,69.6,10
+2013.0,OKC,Western Conf Semifinals,Lost,44.0,11
+2013.0,GSW,Western Conf Semifinals,Lost,42.6,10
+2013.0,IND,Eastern Conf Finals,Lost,42.7,10
+2013.0,MEM,Western Conf Finals,Lost,58.3,14
+2013.0,SAS,Finals,Lost,62.4,11
+2012.0,CHI,Eastern Conf First Round,Lost,34.9,7
+2012.0,NYK,Eastern Conf First Round,Lost,55.9,11
+2012.0,ORL,Eastern Conf First Round,Lost,47.5,11
+2012.0,ATL,Eastern Conf First Round,Lost,35.6,9
+2012.0,UTA,Western Conf First Round,Lost,54.5,10
+2012.0,DAL,Western Conf First Round,Lost,55.5,10
+2012.0,DEN,Western Conf First Round,Lost,66.0,9
+2012.0,MEM,Western Conf First Round,Lost,53.4,12
+2012.0,IND,Eastern Conf Semifinals,Lost,49.8,10
+2012.0,PHI,Eastern Conf Semifinals,Lost,60.2,11
+2012.0,LAC,Western Conf Semifinals,Lost,49.099999999999994,12
+2012.0,LAL,Western Conf Semifinals,Lost,41.8,10
+2012.0,SAS,Western Conf Finals,Lost,84.0,15
+2012.0,BOS,Eastern Conf Finals,Lost,45.3,11
+2012.0,OKC,Finals,Lost,49.0,11
+2011.0,IND,Eastern Conf First Round,Lost,61.0,10
+2011.0,PHI,Eastern Conf First Round,Lost,54.199999999999996,10
+2011.0,NYK,Eastern Conf First Round,Lost,53.0,13
+2011.0,ORL,Eastern Conf First Round,Lost,53.8,10
+2011.0,SAS,Western Conf First Round,Lost,58.4,15
+2011.0,NOH,Western Conf First Round,Lost,64.8,14
+2011.0,POR,Western Conf First Round,Lost,43.699999999999996,11
+2011.0,DEN,Western Conf First Round,Lost,71.0,11
+2011.0,ATL,Eastern Conf Semifinals,Lost,46.2,10
+2011.0,BOS,Eastern Conf Semifinals,Lost,64.7,14
+2011.0,LAL,Western Conf Semifinals,Lost,49.1,11
+2011.0,MEM,Western Conf Semifinals,Lost,58.5,14
+2011.0,CHI,Eastern Conf Finals,Lost,37.300000000000004,9
+2011.0,OKC,Western Conf Finals,Lost,45.1,11
+2011.0,MIA,Finals,Lost,43.9,11
+2010.0,CHI,Eastern Conf First Round,Lost,59.0,12
+2010.0,CHA,Eastern Conf First Round,Lost,54.2,11
+2010.0,MIL,Eastern Conf First Round,Lost,57.7,12
+2010.0,MIA,Eastern Conf First Round,Lost,48.199999999999996,10
+2010.0,OKC,Western Conf First Round,Lost,51.7,13
+2010.0,DAL,Western Conf First Round,Lost,76.9,12
+2010.0,POR,Western Conf First Round,Lost,47.7,11
+2010.0,DEN,Western Conf First Round,Lost,43.7,8
+2010.0,CLE,Eastern Conf Semifinals,Lost,56.9,12
+2010.0,ATL,Eastern Conf Semifinals,Lost,39.5,9
+2010.0,UTA,Western Conf Semifinals,Lost,48.2,9
+2010.0,SAS,Western Conf Semifinals,Lost,59.9,11
+2010.0,PHO,Western Conf Finals,Lost,39.2,9
+2010.0,ORL,Eastern Conf Finals,Lost,45.6,7
+2010.0,BOS,Finals,Lost,61.6,14
