@@ -119,33 +119,48 @@ We analyzed how our features correlate with the binary target (`Target_Win`).
 ## 6. Machine Learning & Prediction
 **Goal:** Train a predictive model to forecast the winner of a playoff series based on Bench Metrics.
 **Lecture References:**
+* **Standardization** 
 * **Logistic Regression** 
 * **Random Forest** 
-* **Confusion Matrix & Accuracy** 
-* **Standardization** 
+* **Confusion Matrix** 
 
-### A. Data Preparation
-* **Dataset:** 225 Playoff Series (2010–2025).
-* **Target:** `Target_Win` (Binary Classification: 1 if Team A wins, 0 if Team B wins).
-* **Splitting:** Chronological split to simulate forecasting.
-    * **Training:** 2010–2019 (150 Samples)
-    * **Testing:** 2020–2025 (75 Samples)
+### A. Methodology (Detailed Implementation)
 
-### B. Model Results
+#### 1. Standardization (Feature Scaling)
+**Why we used it:** Our features had vastly different units. `Diff_PPG` (Volume) ranged from roughly -15 to +15, while `Diff_VORP` (Value) ranged from -0.5 to +0.5. Without scaling, models using gradient descent would be biased toward the larger numbers (PPG).
+**How we applied it:** We used the **StandardScaler** ($z = \frac{x - \mu}{\sigma}$) to transform all inputs.
 
-#### Model 1: Logistic Regression 
+
+[Image of standard normal distribution curve]
+
+* We centered every feature around **0** with a standard deviation of **1**.
+* This ensured that `Diff_VORP` and `Diff_PPG` were treated as equals by the model.
+
+#### 2. Logistic Regression (The "Why" Model)
+**Why we used it:** We needed a **binary classifier** (Win=1, Loss=0) that is **interpretable**. We modeled the probability ($P$) that "Team A wins" using the Sigmoid function:
+$$P(Y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 X_1 + ...)}}$$
+
+**Key Findings (Coefficients):**
+* **`Diff_PPG` Coefficient (-4.00):** This large negative number proves that for every standard deviation increase in bench scoring volume, the odds of winning **decrease** significantly.
+* **`Diff_VORP` Coefficient (+1.05):** This positive number proves that higher Value Over Replacement leads to higher winning odds.
+
+#### 3. Random Forest (The "Prediction" Model)
+**Why we used it:** Basketball is complex and non-linear. **Random Forest** is an **Ensemble Method** (Bagging) that creates many "weak" decision trees and merges them to get a more accurate and stable prediction.
+
+**How we applied it:**
+* **Estimators:** We built **100 Decision Trees**. Each tree looked at a random subset of our playoff data.
+* **Voting:** To predict the 2024 Finals, the model aggregated the votes of all 100 trees to produce a **Confidence Rate**.
+
+#### 4. Confusion Matrix & Accuracy
+**Why we used it:** Accuracy alone can be misleading. The Confusion Matrix helps us see *how* the model is failing (Type I vs Type II errors).
+
 * **Accuracy:** **90.67%** (68/75 Correct)
-* **Coefficients:**
-    * `Diff_PPG`: **-4.00** (Strong Negative Impact)
-    * `Diff_VORP`: **+1.05** (Positive Impact)
-    * **Interpretation:** The model heavily penalizes teams with high bench scoring volume.
+* **True Positives (31):** Model predicted Winner, Team Won.
+* **False Positives (4):** Model predicted Win, but they Lost.
+* **Balance:** The errors were symmetric (4 False Positives, 4 False Negatives), indicating no bias toward one class.
 
-#### Model 2: Random Forest 
-* **Accuracy:** **89.33%**
-* **ROC Curve:**
-
-### C. Recent Predictions (2020-2025)
-The table below displays the model's specific predictions for major playoff series (Conference Finals & NBA Finals) over the last 5 years, including the confidence rate of each prediction.
+### B. Recent Predictions (2020-2025)
+The prediction table displays the model's specific predictions for major playoff series (Conference Finals & NBA Finals) over the last 5 years, including the **Confidence Rate** of each prediction.
 
 * **Green:** Correct Prediction.
 * **Red:** Incorrect Prediction.
