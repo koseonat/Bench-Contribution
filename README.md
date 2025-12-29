@@ -97,6 +97,62 @@ Our multi-stage analysis reveals a nuanced reality about NBA rotations:
 
 ---
 
+## 5. Advanced Visualizations (EDA)
+To deepen our understanding of the "Star Power" vs. "Depth" dynamic, we generated three distinct visualizations.
+
+### A. Boxplot Analysis: Winners vs. Losers
+We compared the distribution of Bench VORP for series winners versus losers.
+* **Insight:** The median VORP for winners (Green) is distinctly higher than for losers (Red). Winners rarely have a "negative value" bench.
+
+### B. Scatterplot: The "Volume Trap"
+This plot visualizes the relationship between **Bench Scoring (X-axis)** and **Bench Value (Y-axis)**.
+* **Insight:** Notice the cluster of **Red Dots (Losses)** in the bottom-right quadrant. These are teams that scored *more* bench points but provided *less* value. This visually confirms our "Volume Trap" hypothesis.
+
+### C. Correlation Heatmap
+We analyzed how our features correlate with the binary target (`Target_Win`).
+* **Insight:**
+    * `Diff_VORP`: **Positive Correlation** (Value leads to wins).
+    * `Diff_PPG`: **Negative Correlation** (High bench scoring predicts losses).
+
+---
+
+## 6. Machine Learning & Prediction
+**Goal:** Train a predictive model to forecast the winner of a playoff series based on Bench Metrics.
+**Lecture References:**
+* **Logistic Regression** 
+* **Random Forest** 
+* **Confusion Matrix & Accuracy** 
+* **Standardization** 
+
+### A. Data Preparation
+* **Dataset:** 225 Playoff Series (2010–2025).
+* **Target:** `Target_Win` (Binary Classification: 1 if Team A wins, 0 if Team B wins).
+* **Splitting:** Chronological split to simulate forecasting.
+    * **Training:** 2010–2019 (150 Samples)
+    * **Testing:** 2020–2025 (75 Samples)
+
+### B. Model Results
+
+#### Model 1: Logistic Regression 
+* **Accuracy:** **90.67%** (68/75 Correct)
+* **Coefficients:**
+    * `Diff_PPG`: **-4.00** (Strong Negative Impact)
+    * `Diff_VORP`: **+1.05** (Positive Impact)
+    * **Interpretation:** The model heavily penalizes teams with high bench scoring volume.
+
+#### Model 2: Random Forest 
+* **Accuracy:** **89.33%**
+* **ROC Curve:**
+
+### C. Recent Predictions (2020-2025)
+The table below displays the model's specific predictions for major playoff series (Conference Finals & NBA Finals) over the last 5 years, including the confidence rate of each prediction.
+
+* **Green:** Correct Prediction.
+* **Red:** Incorrect Prediction.
+* **Observation:** The model correctly predicted the winner in **14 out of the last 15** major series shown, often with high confidence (>70%).
+
+---
+
 ### Limitations
 
 **Limitations:**  
