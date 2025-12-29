@@ -1,0 +1,76 @@
+Year,Round,Matchup,Predicted,Actual,Conf %,Res
+2024.0,Eastern Conf First Round,MIA vs BOS,BOS,BOS,86.6%,✅ Correct
+2024.0,Eastern Conf First Round,CLE vs ORL,CLE,CLE,90.2%,✅ Correct
+2024.0,Eastern Conf First Round,IND vs MIL,IND,IND,89.5%,✅ Correct
+2024.0,Eastern Conf First Round,NYK vs PHI,PHI,NYK,84.9%,❌ Incorrect
+2024.0,Western Conf First Round,NOP vs OKC,OKC,OKC,97.4%,✅ Correct
+2024.0,Western Conf First Round,LAC vs DAL,DAL,DAL,94.1%,✅ Correct
+2024.0,Western Conf First Round,PHO vs MIN,MIN,MIN,93.4%,✅ Correct
+2024.0,Western Conf First Round,DEN vs LAL,DEN,DEN,79.9%,✅ Correct
+2024.0,Eastern Conf Semifinals,IND vs NYK,IND,IND,85.3%,✅ Correct
+2024.0,Western Conf Semifinals,DAL vs OKC,DAL,DAL,94.1%,✅ Correct
+2024.0,Western Conf Semifinals,DEN vs MIN,MIN,MIN,61.7%,✅ Correct
+2024.0,Eastern Conf Semifinals,BOS vs CLE,BOS,BOS,84.0%,✅ Correct
+2024.0,Eastern Conf Finals,BOS vs IND,BOS,BOS,77.3%,✅ Correct
+2024.0,Western Conf Finals,MIN vs DAL,DAL,DAL,91.2%,✅ Correct
+2024.0,Finals,DAL vs BOS,DAL,BOS,56.5%,❌ Incorrect
+2023.0,Eastern Conf First Round,MIL vs MIA,MIA,MIA,94.4%,✅ Correct
+2023.0,Eastern Conf First Round,CLE vs NYK,NYK,NYK,94.6%,✅ Correct
+2023.0,Eastern Conf First Round,PHI vs BRK,PHI,PHI,91.2%,✅ Correct
+2023.0,Eastern Conf First Round,ATL vs BOS,BOS,BOS,95.9%,✅ Correct
+2023.0,Western Conf First Round,MIN vs DEN,DEN,DEN,88.0%,✅ Correct
+2023.0,Western Conf First Round,PHO vs LAC,PHO,PHO,92.2%,✅ Correct
+2023.0,Western Conf First Round,SAC vs GSW,GSW,GSW,90.5%,✅ Correct
+2023.0,Western Conf First Round,MEM vs LAL,LAL,LAL,87.1%,✅ Correct
+2023.0,Eastern Conf Semifinals,NYK vs MIA,MIA,MIA,93.4%,✅ Correct
+2023.0,Eastern Conf Semifinals,PHI vs BOS,BOS,BOS,97.4%,✅ Correct
+2023.0,Western Conf Semifinals,DEN vs PHO,DEN,DEN,89.3%,✅ Correct
+2023.0,Western Conf Semifinals,GSW vs LAL,LAL,LAL,73.4%,✅ Correct
+2023.0,Western Conf Finals,DEN vs LAL,DEN,DEN,86.5%,✅ Correct
+2023.0,Eastern Conf Finals,MIA vs BOS,BOS,MIA,59.1%,❌ Incorrect
+2023.0,Finals,MIA vs DEN,DEN,DEN,68.0%,✅ Correct
+2022.0,Eastern Conf First Round,MIL vs CHI,MIL,MIL,96.0%,✅ Correct
+2022.0,Western Conf First Round,MIN vs MEM,MEM,MEM,98.5%,✅ Correct
+2022.0,Eastern Conf First Round,BRK vs BOS,BOS,BOS,96.9%,✅ Correct
+2022.0,Western Conf First Round,GSW vs DEN,GSW,GSW,94.7%,✅ Correct
+2022.0,Western Conf First Round,DAL vs UTA,DAL,DAL,89.8%,✅ Correct
+2022.0,Eastern Conf First Round,PHI vs TOR,PHI,PHI,89.5%,✅ Correct
+2022.0,Western Conf First Round,NOP vs PHO,PHO,PHO,90.5%,✅ Correct
+2022.0,Eastern Conf First Round,ATL vs MIA,MIA,MIA,95.3%,✅ Correct
+2022.0,Eastern Conf Semifinals,BOS vs MIL,BOS,BOS,93.1%,✅ Correct
+2022.0,Eastern Conf Semifinals,PHI vs MIA,PHI,MIA,77.3%,❌ Incorrect
+2022.0,Western Conf Semifinals,PHO vs DAL,DAL,DAL,95.3%,✅ Correct
+2022.0,Western Conf Semifinals,MEM vs GSW,GSW,GSW,95.6%,✅ Correct
+2022.0,Western Conf Finals,DAL vs GSW,GSW,GSW,83.1%,✅ Correct
+2022.0,Eastern Conf Finals,BOS vs MIA,BOS,BOS,91.5%,✅ Correct
+2022.0,Finals,BOS vs GSW,BOS,GSW,66.8%,❌ Incorrect
+2021.0,Eastern Conf First Round,MIL vs MIA,MIL,MIL,93.1%,✅ Correct
+2021.0,Western Conf First Round,DAL vs LAC,LAC,LAC,92.9%,✅ Correct
+2021.0,Eastern Conf First Round,BRK vs BOS,BRK,BRK,91.4%,✅ Correct
+2021.0,Western Conf First Round,DEN vs POR,DEN,DEN,53.2%,✅ Correct
+2021.0,Eastern Conf First Round,WAS vs PHI,PHI,PHI,89.0%,✅ Correct
+2021.0,Western Conf First Round,UTA vs MEM,UTA,UTA,91.7%,✅ Correct
+2021.0,Eastern Conf First Round,ATL vs NYK,ATL,ATL,92.6%,✅ Correct
+2021.0,Western Conf First Round,PHO vs LAL,PHO,PHO,92.6%,✅ Correct
+2021.0,Eastern Conf Semifinals,MIL vs BRK,MIL,MIL,88.6%,✅ Correct
+2021.0,Eastern Conf Semifinals,ATL vs PHI,ATL,ATL,93.8%,✅ Correct
+2021.0,Western Conf Semifinals,PHO vs DEN,PHO,PHO,93.9%,✅ Correct
+2021.0,Western Conf Semifinals,UTA vs LAC,LAC,LAC,88.9%,✅ Correct
+2021.0,Western Conf Finals,LAC vs PHO,PHO,PHO,88.0%,✅ Correct
+2021.0,Eastern Conf Finals,ATL vs MIL,MIL,MIL,93.6%,✅ Correct
+2021.0,Finals,PHO vs MIL,PHO,MIL,76.9%,❌ Incorrect
+2020.0,Eastern Conf First Round,ORL vs MIL,MIL,MIL,94.2%,✅ Correct
+2020.0,Eastern Conf First Round,BRK vs TOR,TOR,TOR,84.4%,✅ Correct
+2020.0,Eastern Conf First Round,BOS vs PHI,BOS,BOS,94.0%,✅ Correct
+2020.0,Eastern Conf First Round,IND vs MIA,MIA,MIA,90.5%,✅ Correct
+2020.0,Western Conf First Round,POR vs LAL,LAL,LAL,84.2%,✅ Correct
+2020.0,Western Conf First Round,LAC vs DAL,LAC,LAC,94.4%,✅ Correct
+2020.0,Western Conf First Round,UTA vs DEN,DEN,DEN,92.0%,✅ Correct
+2020.0,Western Conf First Round,HOU vs OKC,HOU,HOU,89.6%,✅ Correct
+2020.0,Eastern Conf Semifinals,TOR vs BOS,BOS,BOS,91.5%,✅ Correct
+2020.0,Eastern Conf Semifinals,MIA vs MIL,MIA,MIA,94.7%,✅ Correct
+2020.0,Western Conf Semifinals,DEN vs LAC,DEN,DEN,82.0%,✅ Correct
+2020.0,Western Conf Semifinals,HOU vs LAL,LAL,LAL,88.3%,✅ Correct
+2020.0,Eastern Conf Finals,BOS vs MIA,MIA,MIA,93.2%,✅ Correct
+2020.0,Western Conf Finals,LAL vs DEN,DEN,LAL,84.5%,❌ Incorrect
+2020.0,Finals,LAL vs MIA,MIA,LAL,96.7%,❌ Incorrect
