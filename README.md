@@ -168,10 +168,34 @@ The prediction table displays the model's specific predictions for major playoff
 
 ---
 
-### Limitations
+## 7. Limitations
+While our model achieves high accuracy, there are specific constraints to our methodology:
 
-**Limitations:**  
-- Advanced stats may be incomplete for earlier seasons.  
-- Calculating BPNR requires identifying all-bench lineups, which can be complex.
+1.  **Metric Limitations (Box Score Reliance):**
+    * Metrics like BPM and VORP are derived primarily from box scores. They may not fully capture defensive intangibles (screen setting, rotation speed) or "hustle plays" that do not show up in statistical columns.
 
+2.  **Binary Definition of "Bench":**
+    * We defined a bench player as anyone starting `< 50%` of games. This binary classification can blur the lines for "Sixth Men" (e.g., Manu Ginobili or Tyler Herro) who play starter-level minutes but are technically categorized as bench.
 
+3.  **Contextual Blindness:**
+    * The model analyzes series averages. It does not account for game-specific contexts such as player injuries mid-series, coaching ejections, or specific tactical adjustments (e.g., "Hack-a-Shaq").
+
+4.  **Era Uniformity:**
+    * The model treats data from 2010 (slower pace, fewer 3-pointers) the same as data from 2025. While standardization helps, the fundamental value of a possession has shifted over 15 years.
+
+---
+
+## 8. Future Works
+To further refine the analysis of bench contributions, future iterations of this project could include:
+
+1.  **Lineup Analysis (Play-by-Play Data):**
+    * Instead of averaging individual stats, we could scrape play-by-play data to calculate **Net Rating** for specific 5-man bench units. This would measure how well units play *together*, rather than just the sum of their individual parts.
+
+2.  **Deep Learning Implementation:**
+    * Implementing **Recurrent Neural Networks (RNNs)** or **LSTMs** (Long Short-Term Memory) to analyze the *sequence* of games. This could help predict momentum shifts within a series (e.g., how a Game 3 bench performance influences Game 4).
+
+3.  **Era-Specific Modeling:**
+    * Splitting the dataset into "Pre-Warriors Dynasty" (2010-2015) and "Modern Era" (2016-2025) to see if the impact of bench scoring has evolved with the increasing pace of the game.
+
+4.  **Live Prediction Dashboard:**
+    * Developing a web dashboard (using Streamlit) that updates win probabilities in real-time after every playoff game, rather than just predicting at the start of a series.
