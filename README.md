@@ -199,3 +199,21 @@ To further refine the analysis of bench contributions, future iterations of this
 
 4.  **Live Prediction Dashboard:**
     * Developing a web dashboard (using Streamlit) that updates win probabilities in real-time after every playoff game, rather than just predicting at the start of a series.
+
+## 9. AI Usage Disclosure
+
+In compliance with academic integrity guidelines, the following section details the use of Artificial Intelligence tools in this project.
+
+### Tools Used
+* **Large Language Models (LLMs):** Specifically used for code debugging, syntax reference, and technical explanation drafting.
+
+### Specific Use Cases
+1. **Code Assistance:** AI was used to generate templates for standard Data Science libraries (`pandas` merges, `matplotlib` plotting functions, and `scikit-learn` pipeline syntax).
+2. **Debugging:** AI assisted in resolving a specific `KeyError` during the visualization phase by identifying that raw columns were missing from the feature engineering step.
+3. **Concept Clarification:** AI provided clear, mathematical explanations for "Standardization" and "Logistic Regression Sigmoid Functions," which helped refine the methodology section of this report.
+4. **Formatting:** AI helped structure the Markdown files (README and Final Report) to ensure clean, professional formatting.
+
+### Statement of Originality
+> While AI was used as a coding assistant and technical reference, **the core hypothesis generation, data collection strategy, interpretation of statistical results, and final conclusions are entirely my own work.**
+>
+> The decision to focus on "Efficiency vs. Volume" and the selection of VORP as the critical metric were driven by my personal domain knowledge of basketball.
